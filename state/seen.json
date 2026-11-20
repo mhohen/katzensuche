@@ -1,0 +1,961 @@
+{
+  "health": {
+    "landwirt": {
+      "alerted_down": false,
+      "errors": 0
+    },
+    "tieranzeigen": {
+      "alerted_down": false,
+      "errors": 0
+    },
+    "willhaben": {
+      "alerted_down": false,
+      "errors": 0
+    }
+  },
+  "plz_cache": {
+    "2000": [
+      48.3929,
+      16.1003
+    ],
+    "2116": [
+      48.5333,
+      16.35
+    ],
+    "2130": [
+      48.57,
+      16.5767
+    ],
+    "2301": [
+      48.1833,
+      16.6667
+    ],
+    "2334": [
+      48.0828,
+      16.3138
+    ],
+    "2345": [
+      48.107,
+      16.2847
+    ],
+    "2440": [
+      48.0,
+      16.5167
+    ],
+    "2444": [
+      47.9545,
+      16.4955
+    ],
+    "2603": [
+      47.8816,
+      16.2421
+    ],
+    "3031": [
+      48.1833,
+      16.0833
+    ],
+    "3062": [
+      48.195,
+      15.82
+    ],
+    "3121": [
+      48.25,
+      15.5667
+    ],
+    "3341": [
+      47.9333,
+      14.8833
+    ],
+    "3470": [
+      48.4333,
+      15.8833
+    ],
+    "3830": [
+      48.8167,
+      15.2833
+    ],
+    "4121": [
+      48.4856,
+      13.9698
+    ],
+    "4343": [
+      48.1879,
+      14.6959
+    ],
+    "4371": [
+      48.3061,
+      14.908
+    ],
+    "4595": [
+      47.9985,
+      14.2588
+    ],
+    "4654": [
+      48.0667,
+      13.9
+    ],
+    "4814": [
+      47.9009,
+      13.7642
+    ],
+    "4844": [
+      47.9913,
+      13.6878
+    ],
+    "4901": [
+      48.1044,
+      13.6319
+    ],
+    "5225": [
+      48.0483,
+      13.1481
+    ]
+  },
+  "seen": {
+    "landwirt:29624850": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Katzenbabys, Kitten, BKH"
+    },
+    "landwirt:29730535": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Katzen abzugeben, ca. 4 Monate bzw. 1 Jahr alt"
+    },
+    "landwirt:29738315": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Suche Babykatzen"
+    },
+    "landwirt:29763336": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Katzen"
+    },
+    "landwirt:29767392": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Abgabe Mitte September, verkaufe 4 europäische Kurzhaar-Katzen"
+    },
+    "landwirt:29768214": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Kater"
+    },
+    "landwirt:29778338": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ragdoll-Kitten"
+    },
+    "landwirt:29779048": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Katzenbabys"
+    },
+    "landwirt:29781840": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Verkaufe Babykatze, weiblich"
+    },
+    "landwirt:29781841": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Verkaufe Babykatze, männlich"
+    },
+    "landwirt:29789500": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Wunderschöne Maine-Coon-Kätzchen suchen ihr Zuhause"
+    },
+    "landwirt:29809554": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Kleine Kuschelmaus Sophia sucht ihr Zuhause"
+    },
+    "landwirt:29831479": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Katzenbabys"
+    },
+    "landwirt:29832210": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Kratzbaum"
+    },
+    "landwirt:29843788": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Süße Babykatzen"
+    },
+    "landwirt:29851457": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Babykatze gesucht"
+    },
+    "landwirt:29857988": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Europäische Kurzhaarkatzen"
+    },
+    "landwirt:29865030": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Maine Coon mit Stammbaum"
+    },
+    "landwirt:29874190": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Suche 2 Katzen"
+    },
+    "landwirt:29882332": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Katzenbabys"
+    },
+    "landwirt:29888260": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Katze, Europäisch Kurzhaar, kastriert, geimpft"
+    },
+    "landwirt:29909103": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch-Langhaar-Mädchen in Blue Point sucht Zuhause"
+    },
+    "landwirt:29915847": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "EKH Katzen, reserviert"
+    },
+    "landwirt:29920906": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Katzenbabys abzugeben"
+    },
+    "landwirt:29923502": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Kätzchen abzugeben"
+    },
+    "tieranzeigen:1837389": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BLANKA wartet auf ihre liebe Familie"
+    },
+    "tieranzeigen:1906458": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Karpie & Nurmie - Schmusekater sucht mit seiner Partnerin"
+    },
+    "tieranzeigen:1907209": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "EXKLUSIVE BKH & BLH Kitten mit Stammbaum"
+    },
+    "tieranzeigen:1907424": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "MELITTA wartet sehnsüchtig auf ihre Familie"
+    },
+    "tieranzeigen:1908451": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Herziges, bildschönes Highlander-Katerchen"
+    },
+    "tieranzeigen:1908550": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Molly - Hauskatze | Tierheim Brunn"
+    },
+    "tieranzeigen:1908581": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Xena - eine Traumkatze sucht ihr für immer zuhause"
+    },
+    "tieranzeigen:1909113": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BKH Katze Caro"
+    },
+    "tieranzeigen:1909729": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar Junge in creme mit Stammbaum"
+    },
+    "tieranzeigen:1909730": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Briten (Britisch Kurzhaar) Junge in creme-weiss mit Stammbaum"
+    },
+    "tieranzeigen:1909731": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar (BSH/BKH) Junge in creme ticked mit Stammbaum"
+    },
+    "tieranzeigen:1909764": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BIJOU & JACQUELINE - Herzensbrecherinnen suchen Anschluss!"
+    },
+    "tieranzeigen:1909967": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "GIGI wartet schon so lange auf ihre Familie"
+    },
+    "tieranzeigen:1909974": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Maine Coon Kitten mit Stammbaum"
+    },
+    "tieranzeigen:1910042": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Jokey - verschmuster Einzelkater sucht seine Menschen"
+    },
+    "tieranzeigen:1910048": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Mavis - Schmusekatze sucht Schmusemenschen"
+    },
+    "tieranzeigen:1910156": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar Kitten männlich mit Stammbaum"
+    },
+    "tieranzeigen:1910594": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Entzückende BKH Britisch Kurzhaar-Kitten mit KKÖ-Stammbaum, Famil"
+    },
+    "tieranzeigen:1910668": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BARKA sucht ihre Familie"
+    },
+    "tieranzeigen:1910755": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "TIGER möchte wieder eine Familie haben..."
+    },
+    "tieranzeigen:1911137": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "kleinen BKH und BLH Zwerge"
+    },
+    "tieranzeigen:1911200": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "GINA-Stubenlöwin wünscht sich Ausgang"
+    },
+    "tieranzeigen:1911270": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ragdoll Kitten (behördlich gemeldete Hobbyzucht)"
+    },
+    "tieranzeigen:1911278": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Herzallerliebste Ragdoll Kitten"
+    },
+    "tieranzeigen:1911377": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Rocket & Runa suchen ihr neues Zuhause ️"
+    },
+    "tieranzeigen:1911385": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Geschwisterpaar sucht liebevolles zuhause"
+    },
+    "tieranzeigen:1911403": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ragdoll Kitten suchen ihren Traumplatz"
+    },
+    "tieranzeigen:1911440": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BKH Kater Blue sucht neues Zuhause"
+    },
+    "tieranzeigen:1911592": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Wunderschöne Lilac Tortie BKH"
+    },
+    "tieranzeigen:1911630": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Vladi sucht ein liebevolles Zuhause"
+    },
+    "tieranzeigen:1911631": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bella möchte gerne im Bett schlafen…"
+    },
+    "tieranzeigen:1911748": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bengal Kitten mit Stammbaum!"
+    },
+    "tieranzeigen:1911815": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Verspielte Babykatze sucht neues Zuhause"
+    },
+    "tieranzeigen:1911956": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Typvolle Maine Coon mit Stammbaum"
+    },
+    "tieranzeigen:1911961": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Norwegische Waldkatzen Kitten, geboren am 27.10.2026"
+    },
+    "tieranzeigen:1911968": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Maine Coon Kitten mit Stammbaum"
+    },
+    "tieranzeigen:1911969": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Norwegische Waldkatzen Kitten mit FIFe-Stammbaum – Rot & Creme ️"
+    },
+    "tieranzeigen:1912040": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Avocado - Hauskatze | Tierheim Brunn"
+    },
+    "tieranzeigen:1912041": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Yakari - Hauskatze | Tierheim Brunn"
+    },
+    "tieranzeigen:1912042": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Jungkatzen - Hauskatze | Tierheim Brunn"
+    },
+    "tieranzeigen:1912075": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Spektakuläre Rettungen von der Straße"
+    },
+    "tieranzeigen:1912101": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Zauberhafte Sibirische Kitten auch Neva Masquarade Katzen"
+    },
+    "tieranzeigen:1912102": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bezaubernde BKH Kitten zu vergeben"
+    },
+    "tieranzeigen:1912146": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Maximilian, Salem und Snowflake suchen gemeinsam ihr Zuhause"
+    },
+    "tieranzeigen:1912174": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Sehr typvolle BKH Kitten in FAWN aus Champions Eltern"
+    },
+    "tieranzeigen:1912222": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Bauernhofkatze"
+    },
+    "tieranzeigen:1912239": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "️ Wunderschöne Maine-Coon-Dame Quiana sucht ihre Herzensmenschen"
+    },
+    "tieranzeigen:1912242": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "EKH Katzen"
+    },
+    "tieranzeigen:1912264": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ruhiger braver Maine Coon Mischling."
+    },
+    "tieranzeigen:1912266": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Deckkater- BKH"
+    },
+    "tieranzeigen:1912270": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bezaubernder BKH Kater ab sofort zu vergeben"
+    },
+    "tieranzeigen:1912315": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Timba+Dixy! 6 Monate /kastriert /gechipt/geimpft"
+    },
+    "tieranzeigen:1912316": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Tabsi+Puma 4 MO! / Freigang/gechipt/geimpft"
+    },
+    "tieranzeigen:1912327": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Wer hat Zeit und Geduld BELLA LU´s Vertrauen zu gewinnen?"
+    },
+    "willhaben:1001090140": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BKH Deckkater( kein Verkauf)"
+    },
+    "willhaben:1024208585": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Katze"
+    },
+    "willhaben:1027793244": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Emma & Timmy"
+    },
+    "willhaben:1076396750": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Anise & Samantha"
+    },
+    "willhaben:1083737532": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Zuckersüße Ragdollkätzchen"
+    },
+    "willhaben:1085457772": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "(reserviert) Babykatzen"
+    },
+    "willhaben:1123229884": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Paul - Einzelkater Superhirn sucht Schmusemenschen fürs Leben"
+    },
+    "willhaben:1134204822": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Zita"
+    },
+    "willhaben:1162501467": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Tabsi+Puma 3 Monate/ Freigang/gechipt/geimpft"
+    },
+    "willhaben:1179835750": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Amaya & Solana"
+    },
+    "willhaben:1185013040": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Die beiden Jungkatzen Piccolino und Caruso suchen gemeinsam nach einem Zuhause voller Liebe und Gebo"
+    },
+    "willhaben:1252625111": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ema & Poppy - sensible Katzenmädchen suchen ihre Menschen"
+    },
+    "willhaben:1267083773": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Artemis"
+    },
+    "willhaben:1303128142": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "(reserviert) Süße British Kurzhaar (BKH) Kitten - 2 Mädels & 1 Bub"
+    },
+    "willhaben:1335337605": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BKH Bärchen mit TOP Stammbaum - abgabebereit"
+    },
+    "willhaben:1337251974": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Pipinella und Motte, 3 & 2 Jahre alt, suchen gemeinsam liebevollen Platz"
+    },
+    "willhaben:1344571581": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Dringend Futterstellen für verwilderte Streunerkatzen gesucht!"
+    },
+    "willhaben:1363949922": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Mavis - Schmusekatze sucht Schmusemenschen"
+    },
+    "willhaben:1378035668": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar Blau Rainrassige Kitten. Wunderschön und mit ein Traumcharakter. Ab sofort Auszugs"
+    },
+    "willhaben:1384127871": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Die Kartzenkinder Geli und Gustav sind auf der Suche nach einem liebevollen Zuhause."
+    },
+    "willhaben:1389287962": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "(reserviert) EKH Katzen"
+    },
+    "willhaben:1394741823": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Wunderschöne Maine Coon × Ragdoll Mix Kätzchen suchen ihr Traumzuhause!"
+    },
+    "willhaben:1407884308": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Katzenkinder suchen ihr Zuhause"
+    },
+    "willhaben:1429864553": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "(reserviert) Katzenbabys"
+    },
+    "willhaben:1440835259": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Zwei süße Kater suchen ein liebevolles Zuhause"
+    },
+    "willhaben:1454050323": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Silver"
+    },
+    "willhaben:1463933807": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bkh"
+    },
+    "willhaben:1473881447": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Karpie & Nurmie"
+    },
+    "willhaben:1480324203": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bogdan & Vladimir - als Babys ausgesetzt, noch immer auf der Suche nach ihrem Glück! 11Mon. alt"
+    },
+    "willhaben:1496294064": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "FRITZ - Einzelgänger mit Freiheitsdrang sucht neues Betätigungsfeld"
+    },
+    "willhaben:1506589355": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BELLA Perserkatze mit Handicap - Prinzessin sucht ihr Schloß voller Geborgenheit!"
+    },
+    "willhaben:1507797032": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Abholbereit ab sofort! Sehr verschmuste Katze in einer exlusiven goldenen Farben!!! Sehr verschmuste"
+    },
+    "willhaben:1517667952": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Reinrassige Britisch Kurzhaar Blau Kitten. Ab sofort Auszugsbereit."
+    },
+    "willhaben:1529469595": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "PartnerIn fürs Leben gesucht ? Dann bist du hier richtig !"
+    },
+    "willhaben:1532106496": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Beste Freunde suchen gemeinsam liebevolles zu Hause"
+    },
+    "willhaben:1538826229": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Edi - ein kleiner Clown mit ganz großem Charme sucht sein Glück"
+    },
+    "willhaben:1552681305": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "junge Kätzchen"
+    },
+    "willhaben:1567727723": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Typvoller Maine Coon Kitten mit Stammbaum"
+    },
+    "willhaben:1638526122": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar Katze & Kitten - BKH - Abgabe ab sofort"
+    },
+    "willhaben:1651602045": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Minka"
+    },
+    "willhaben:1655051404": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "(reserviert) BKH-Ragdoll-Mix-Kitten"
+    },
+    "willhaben:1691986455": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Nilo"
+    },
+    "willhaben:1706873974": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bescheidene Katzendame NIMA sucht ihr Traumzuhause als Einzelkatze!!"
+    },
+    "willhaben:1713546074": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Pipa & Peticel"
+    },
+    "willhaben:1722026657": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Entzückende BKH Kitten mit Stammbaum"
+    },
+    "willhaben:1728818196": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Pauli & Rambo, 6 & 5 Monate alt, suchen liebevolle Familie mit Freigang"
+    },
+    "willhaben:1730807400": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "RESERVIERT! 2 Kitten, Babykatzen weiblich AUSZUGSBEREIT"
+    },
+    "willhaben:1748348703": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Fremddecken Maine Coon"
+    },
+    "willhaben:1755110178": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bkh Kitten Reinrassig"
+    },
+    "willhaben:1755621764": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Emily - eine kleine Katzenlady mit einem besonders großen Herzen sucht ihr Glück"
+    },
+    "willhaben:1776539852": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Maine Coon Kitten mit Stammbaum"
+    },
+    "willhaben:1781661364": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Mathilda und Matheo suchen einen Lebensplatz"
+    },
+    "willhaben:1789661694": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Flummi - eine kleine Abenteurerin sucht ihr großes Glück"
+    },
+    "willhaben:1795832844": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Süße verschmuste Bengalkitten"
+    },
+    "willhaben:1800743136": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Abgabebereit: Reinrassige Bkh Kitten mit Stammbaum aus Championlinie"
+    },
+    "willhaben:1815382491": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar Deckkater"
+    },
+    "willhaben:1856128720": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Timba+Dixy/Freigangplatz! 6 Monate /kastriert /gechipt/geimpft"
+    },
+    "willhaben:1864998255": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Bezaubernde EKH"
+    },
+    "willhaben:1882139579": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "14 Wochen alte Katzenbabys / komplett geimpft"
+    },
+    "willhaben:1899713658": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Boncuk"
+    },
+    "willhaben:1917651010": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Europäische Kurzhaar Katze"
+    },
+    "willhaben:1941974297": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Cedrick - ein kleiner Herzensbrecher sucht sein großes Glück"
+    },
+    "willhaben:1953566073": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "4 Seltene Katzenbaby, Babykitten"
+    },
+    "willhaben:1972545754": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Wer hat Zeit und Geduld BELLA LU´s Vertrauen zu gewinnen?"
+    },
+    "willhaben:2013333324": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Bezaubernde Reinrassige BKH Kitten weiblich in Gold Farben Ny11oder Ny12 mit WCF Stammbaum"
+    },
+    "willhaben:2020938301": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ember"
+    },
+    "willhaben:2040282912": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "(reserviert) 5 Sozialfellchen suchen Traumzuhause"
+    },
+    "willhaben:2071422687": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Katze abzugeben"
+    },
+    "willhaben:2079100243": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Sozialfellchen sucht Einzelplatz mit Freigang"
+    },
+    "willhaben:2085167591": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "DECKKATER - BKH"
+    },
+    "willhaben:2092756175": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Draco, Luna & Batman, ca. 12 Wochen alt"
+    },
+    "willhaben:2099453381": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Süße ELLY weibliches Ragdoll Kitten mit 5 Generationen Stammbaum"
+    },
+    "willhaben:2129204394": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ragdoll / Cherubim Kitten mit Stammbaum"
+    },
+    "willhaben:2131950772": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Zucker süße BKH in Weis , Blue Tabby, Gream hell"
+    },
+    "willhaben:596709944": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Lotte, SOS Katze"
+    },
+    "willhaben:782108893": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Nacho & Bonita"
+    },
+    "willhaben:783178979": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Britisch Kurzhaar kitten ab ende Dezember abgabebereit"
+    },
+    "willhaben:788877115": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Ragdoll-Kitten"
+    },
+    "willhaben:831820221": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Streunermädchen Flocke, ca. 2 Jahre, auf der Suche nach dem ganz großen Glück"
+    },
+    "willhaben:838146312": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Wunderschöner Ragdoll Kater in Blue mitted sucht noch sein für immer Zuhause"
+    },
+    "willhaben:842158736": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": true,
+      "title": "Süße und verspielte Bauernhofkatze zu verkaufen"
+    },
+    "willhaben:863295086": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Maine Coon"
+    },
+    "willhaben:865222291": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Sozialfellchen sucht Traumzuhause"
+    },
+    "willhaben:880155489": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Dekka - ein kleiner Entdecker sucht ein liebevolles Zuhause"
+    },
+    "willhaben:893480152": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Typvoller Maine Coon kitten mit Stammbaum"
+    },
+    "willhaben:895757304": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "OÖ - bezaubernde Einzelkatze Heidi sucht ihr Glück bei dir"
+    },
+    "willhaben:902526509": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "COOKIE & CREAMY, 2 zutrauliche, kinderliebende, mit Katzen soziale Jungkater, 6 Monate alt, lebenslu"
+    },
+    "willhaben:903565156": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "BKH British Kurzhaar Kitten"
+    },
+    "willhaben:937281189": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Madame Curie und Arwid - kluge Kuscheltiger"
+    },
+    "willhaben:963113523": {
+      "first_seen": "2026-11-20T15:20:39+00:00",
+      "matched": false,
+      "title": "Hof Platz gesucht!"
+    }
+  }
+}
