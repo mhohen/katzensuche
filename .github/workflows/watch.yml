@@ -1,0 +1,67 @@
+name: Katzen-Wächter Linz (alle 5 Min.)
+
+on:
+  schedule:
+    # Läuft alle 5 Minuten rund um die Uhr (UTC).
+    # Wichtig: Repo als PUBLIC anlegen (unbegrenzte kostenlose Actions-Minuten)
+    # und NTFY_TOPIC als Repository Secret speichern!
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      test_notify:
+        description: "Nur eine Test-Benachrichtigung ans Handy schicken?"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: katzen-watcher-linz
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python 3 einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test-Benachrichtigung senden (optional)
+        if: ${{ inputs.test_notify == true }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: python3 -m src.main --test-notify
+
+      - name: Inserate prüfen & Push senden
+        if: ${{ inputs.test_notify != true }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          MAX_DISTANCE_KM: ${{ vars.MAX_DISTANCE_KM }}
+          MAX_PRICE_EUR: ${{ vars.MAX_PRICE_EUR }}
+          MAX_AGE_MONTHS: ${{ vars.MAX_AGE_MONTHS }}
+        run: python3 -m src.main --state-file state/seen.json
+
+      - name: Gesehene Inserate sichern (nur bei Änderungen)
+        if: ${{ inputs.test_notify != true }}
+        run: |
+          if [ -n "$(git status --porcelain state/seen.json)" ]; then
+            git config user.name "katzen-watcher[bot]"
+            git config user.email "katzen-watcher[bot]@users.noreply.github.com"
+            git add state/seen.json
+            git commit -m "chore: update seen listings"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push
+          else
+            echo "Keine neuen Inserate – kein Commit nötig."
+          fi
